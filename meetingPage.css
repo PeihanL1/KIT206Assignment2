@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ECFFD9;
+
+}
+.gmisTitle{
+    color: aqua;
+    margin-top: 50px;
+    font-size: 50px;
+    text-align: center;
+}
+#list{
+    text-align: left;
+    border-bottom: 1px solid #555;
+
+}
+.nav {
+    background-color: #F50057;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.nav ul {
+    margin:0px ;padding: 0;
+    list-style-type: none;
+    line-height: 3em;
+    
+}
+ul{
+    list-style: none;
+}
+
+.nav a {
+    display: block;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #F50057;
+    color: #ffffff;
+}
+.nav a:hover {
+    background-color: #ffffff;
+    color:#F50057;
+}
+
+.border{
+    padding: 10px;
+    margin: 30px auto;
+    border-radius: 20px;
+    width: 1000px;
+    height: 500px;
+    background-color:aqua ;
+    position: relative;
+}
+.title{
+    font-weight: 700;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.coursediv{
+    margin-top: 40px;
+    padding: 0 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+    width: 980px;
+    height: 80px;
+    background-color:rgb(164, 230, 164);
+
+}
+button{
+    float:right;
+    background-color:#F50057;
+    color: #ffffff;
+    position: absolute;
+    right: 10px;
+    border-radius: 50%;
+}
+.textContent{
+    font-size: 17px;
+}
+.date{
+    float: left;
+    position: absolute;
+    width: 980px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.schedule{
+    font-size: 18px;
+}
